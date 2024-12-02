@@ -25,3 +25,10 @@ INSERT UNTO user (
     "Lopez",
     "Play Scoocer"
 );
+
+UPDATE user SET
+    first_name = 'Antonio',
+    hobbies = "diy srtuff and watching TV"
+WHERE id=2;
+
+DELETE FROM user WHERE id=1;
